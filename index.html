@@ -10,6 +10,7 @@
         <!-- Latest compiled and minified CSS -->
         <script src="myscripts.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="index.css">
         
 
@@ -24,17 +25,17 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#about">About Me</a></li>
                         <li><a href="#services">Programming Languages</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#portfolio">My Projects and Achievements</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <header style="background-image:url('http://sf.co.ua/15/11/wallpaper-1ee175.jpg');">
+        <header style="background-image:url('pexels-lee-campbell-115655.jpg');">
             <div class="header-content">
                 <div class="header-content-inner">
-                    <h1>I am Ng Wee Yap</h1>
-                    <p>I am a student of Westwood Secondary School. I have a strong interest in Technology</p>
+                    <h1>Hello World, </h1>
+                    <p>I'm Wee Yap</p>
                 </div>
             </div>
         </header>
@@ -99,6 +100,7 @@
         </section>
         
          <section class="portfolio-section" id="portfolio">
+             <h1 class = "projects">My Projects</h1>
              <div class="portfolio-section-inner">
                 <div class="portfolio-section-row">
                     <div class="portfolio-section-data2" style="background-image:url('http://www.pd4pic.com/images/snail-branch.jpg')">
@@ -153,12 +155,42 @@
                  </div>
              
              </div>
-             
+
              
         </section>
 
-        <div class = "achievements">
-            
+
+
+    
+            </div>
+    </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+
+ 
+ </div>
+     </div>
         </div>
         
         <footer id="contact">
