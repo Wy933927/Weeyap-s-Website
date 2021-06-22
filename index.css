@@ -181,16 +181,9 @@ h1, h2, h3, h4 {
     text-transform: uppercase;
     color: #fff;
     letter-spacing: 0.05em;
+    width: 700px;
 }
 
-.header-content-inner h1:after {
-    content: "";
-    display: block;
-    width: 80px;
-    height: 3px;
-    margin: 20px auto 0;
-    background: #F05F40;
-}
 
 .header-content-inner p {
     font-size: 22px;
@@ -495,3 +488,29 @@ footer a:hover{
   }
 
 
+  .typing-demo {
+    width: 22ch;
+    animation: typing 3s steps(22), blink 0.2s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+    width: 850px;
+    padding-left: 50px;
+    animation-iteration-count: infinite;
+  }
+
+  
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
