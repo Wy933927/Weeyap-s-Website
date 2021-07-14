@@ -490,7 +490,7 @@ footer a:hover{
 
   .typing-demo {
     width: 22ch;
-    animation: typing 3s steps(22), blink 0.2s step-end infinite alternate;
+    animation: typing 3s steps(26), blink 0.1s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
@@ -513,4 +513,19 @@ footer a:hover{
     50% {
       border-color: transparent
     }
+  }
+
+  .certificates{
+      height: 50vw;
+  } 
+
+  .Shadowbox{
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  }
+
+
+  .awards{
+      text-align: center;
+      padding-top: 35px;
+      padding-bottom: 10px;
   }
